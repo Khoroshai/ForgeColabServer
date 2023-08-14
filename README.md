@@ -19,7 +19,7 @@ The world files and logs are saved to gdrive every 5 minutes.
 # How to use
 1) Put the base vanilla and Forge server in a folder and add the mods to it. 
 2) *Zip* this folder and upload it somewhere on your gdrive.
-3) *Edit* the **Names&Paths** in the first cell.
+3) *Change* the Names, Paths and the Forge command in **Initialization**.
 4) *Run* only one time the first cell to set everything up.
 5) (using Playit.gg) Follow the link to activate the tunnel. (You might wait a few seconds, just follow the instruction) In case it is not the first tunnel you open, you can click on *Create Tunnel* and then stop the creation as only the agent is necessary. **The URL to the server is on Playit.gg**. If the URL doesn't work, the IP should work.
 6) *Launch* the **Start Server** cell as you wish. Stopping it will gently close the server. (Could raise an error but trying a second time will close normally with saving worlds, etc... in normal cases)
@@ -32,12 +32,9 @@ The world files and logs are saved to gdrive every 5 minutes.
 
 To create the base Forge server, as of August 2023, you can execute a jar file found on their official website.
 
-The *run.sh* file, that you'll get with the Forge base, contains a command which includes a version that you'll compare with the one in the Notebook at the **Start Server** cell.
+The *run.sh* file, that you'll get with the Forge base, contains a command which includes a version that you'll compare with *forgeCommand* at **Initialization**.
 
 The tunnel used in this Notebook is Playit but you can easily copy-paste Ngrok or Argo from *MineColab*. Just pay attention to the command slighty modified here.
-
-
-
 
 # Known issues
 
@@ -49,4 +46,3 @@ Possible solution : use a subprocess to interrupt it more easily.
 # To do
 
 - Add Ngrok and Argo.
-- Make a GUI.
