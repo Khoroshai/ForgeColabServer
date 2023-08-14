@@ -21,7 +21,7 @@ The world files and logs are saved to gdrive every 5 minutes.
 2) *Zip* this folder and upload it somewhere on your gdrive.
 3) *Edit* the **Names&Paths** in the first cell.
 4) *Run* only one time the first cell to set everything up.
-5) (using Playit.gg) Follow the link to activate the tunnel. (You might wait a few seconds, just follow the instruction) In case it is not the first tunnel you open, you can click on *Create Tunnel* and then stop the creation as only the agent is necessary. **The URL to the server is Playit.gg**. If the URL doesn't work, the IP should work.
+5) (using Playit.gg) Follow the link to activate the tunnel. (You might wait a few seconds, just follow the instruction) In case it is not the first tunnel you open, you can click on *Create Tunnel* and then stop the creation as only the agent is necessary. **The URL to the server is on Playit.gg**. If the URL doesn't work, the IP should work.
 6) *Launch* the **Start Server** cell as you wish. Stopping it will gently close the server. (Could raise an error but trying a second time will close normally with saving worlds, etc... in normal cases)
 7) *Run* the **Stop Auto-saves** cell when the server is stopped. You can run it while the server is up to make it auto-run when the server stops.
 8) (optional) You can run the very last cell to save any changes made to the server. (properties, config...)
