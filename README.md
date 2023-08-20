@@ -1,4 +1,5 @@
 # Forge Minecraft Server
+
 *This method is inspired from MineColab (https://github.com/thecoder-001/MineColab)*
 
 *It uses free ressources thanks to Google, do not abuse of it.*
@@ -36,13 +37,16 @@ The *run.sh* file, that you'll get with the Forge base, contains a command which
 
 The tunnel used in this Notebook is Playit but you can easily copy-paste Ngrok or Argo from *MineColab*. Just pay attention to the command slighty modified here.
 
+A Kaggle version of this notebook is available here : https://github.com/Khoroshai/ForgeKaggleServer. Kaggle processor is slightly better but setup is less intuitive.
+
 # Known issues
 
 - The **Stop Auto-saves** cell takes up to 5 minutes (saving interval) to complete. Run, stop, run is a work around by raising an error.
-Possible solution : use a subprocess to interrupt it more easily.
+*Solution found in the Kaggle version*.
 
-- Sometimes the server console stops allowing inputs. This happens when the bottom timer also stops counting the running time despite the server being up.
+- Sometimes the server console stops allowing inputs. This happens when the bottom timer also stops counting the running time despite the server being up. Maybe merge to the same methods as the Kaggle version.
 
 # To do
 
 - Add Ngrok and Argo.
+- Add improvments from the Kaggle version.
