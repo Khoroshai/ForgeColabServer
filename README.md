@@ -1,6 +1,6 @@
 # Forge Minecraft Server
 
-*This method is inspired from MineColab (https://github.com/thecoder-001/MineColab)*
+*This method is inspired from [MineColab](https://github.com/thecoder-001/MineColab)*
 
 *It uses free ressources thanks to Google, do not abuse of it.*
 
@@ -37,7 +37,7 @@ The *run.sh* file, that you'll get with the Forge base, contains a command which
 
 The tunnel used in this Notebook is Playit but you can easily copy-paste Ngrok or Argo from *MineColab*. Just pay attention to the command slighty modified here.
 
-A Kaggle version of this notebook is available here : https://github.com/Khoroshai/ForgeKaggleServer. Kaggle processor is slightly better but setup is less intuitive.
+A [Kaggle version](https://github.com/Khoroshai/ForgeKaggleServer) of this notebook is available. Kaggle processor is slightly better but setup is less intuitive.
 
 # Known issues
 
